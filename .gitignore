@@ -1,0 +1,10 @@
+.venv/
+.uv-cache/
+.mpl-cache/
+__pycache__/
+/data/real/
+/outputs/*
+!/outputs/coins.png/
+!/outputs/synthetic.png/
+!/outputs/synthetic_noisy.png/
+!/outputs/detections.json

@@ -1,0 +1,339 @@
+{
+  "config": {
+    "gaussian": {
+      "kernel_size": 5,
+      "sigma": 1.2
+    },
+    "canny": {
+      "threshold1": 50,
+      "threshold2": 120
+    },
+    "hough": {
+      "dp": 1.2,
+      "minDist": 32,
+      "param1": 110,
+      "param2": 27,
+      "minRadius": 12,
+      "maxRadius": 37
+    }
+  },
+  "images": [
+    {
+      "image": "coins.png",
+      "width": 384,
+      "height": 303,
+      "count": 24,
+      "circles": [
+        {
+          "id": 1,
+          "x": 336.6,
+          "y": 43.8,
+          "r": 28.08
+        },
+        {
+          "id": 2,
+          "x": 215.4,
+          "y": 49.8,
+          "r": 23.16
+        },
+        {
+          "id": 3,
+          "x": 154.2,
+          "y": 51.0,
+          "r": 22.08
+        },
+        {
+          "id": 4,
+          "x": 274.2,
+          "y": 52.2,
+          "r": 18.36
+        },
+        {
+          "id": 5,
+          "x": 46.2,
+          "y": 54.6,
+          "r": 20.16
+        },
+        {
+          "id": 6,
+          "x": 99.0,
+          "y": 57.0,
+          "r": 18.0
+        },
+        {
+          "id": 7,
+          "x": 271.8,
+          "y": 118.2,
+          "r": 24.72
+        },
+        {
+          "id": 8,
+          "x": 43.8,
+          "y": 124.2,
+          "r": 19.56
+        },
+        {
+          "id": 9,
+          "x": 204.6,
+          "y": 124.2,
+          "r": 19.08
+        },
+        {
+          "id": 10,
+          "x": 102.6,
+          "y": 125.4,
+          "r": 18.6
+        },
+        {
+          "id": 11,
+          "x": 336.6,
+          "y": 125.4,
+          "r": 19.32
+        },
+        {
+          "id": 12,
+          "x": 154.2,
+          "y": 126.6,
+          "r": 19.32
+        },
+        {
+          "id": 13,
+          "x": 348.6,
+          "y": 185.4,
+          "r": 30.0
+        },
+        {
+          "id": 14,
+          "x": 213.0,
+          "y": 193.8,
+          "r": 23.52
+        },
+        {
+          "id": 15,
+          "x": 279.0,
+          "y": 195.0,
+          "r": 16.56
+        },
+        {
+          "id": 16,
+          "x": 103.8,
+          "y": 196.2,
+          "r": 20.04
+        },
+        {
+          "id": 17,
+          "x": 154.2,
+          "y": 197.4,
+          "r": 19.8
+        },
+        {
+          "id": 18,
+          "x": 42.6,
+          "y": 198.6,
+          "r": 19.44
+        },
+        {
+          "id": 19,
+          "x": 45.0,
+          "y": 259.8,
+          "r": 27.24
+        },
+        {
+          "id": 20,
+          "x": 174.6,
+          "y": 261.0,
+          "r": 26.16
+        },
+        {
+          "id": 21,
+          "x": 299.4,
+          "y": 263.4,
+          "r": 24.6
+        },
+        {
+          "id": 22,
+          "x": 244.2,
+          "y": 264.6,
+          "r": 24.96
+        },
+        {
+          "id": 23,
+          "x": 108.6,
+          "y": 265.8,
+          "r": 16.92
+        },
+        {
+          "id": 24,
+          "x": 359.4,
+          "y": 267.0,
+          "r": 21.48
+        }
+      ]
+    },
+    {
+      "image": "synthetic.png",
+      "width": 384,
+      "height": 303,
+      "count": 5,
+      "circles": [
+        {
+          "id": 1,
+          "x": 72.6,
+          "y": 66.6,
+          "r": 23.52
+        },
+        {
+          "id": 2,
+          "x": 192.6,
+          "y": 69.0,
+          "r": 31.92
+        },
+        {
+          "id": 3,
+          "x": 315.0,
+          "y": 75.0,
+          "r": 22.08
+        },
+        {
+          "id": 4,
+          "x": 273.0,
+          "y": 210.6,
+          "r": 31.92
+        },
+        {
+          "id": 5,
+          "x": 111.0,
+          "y": 214.2,
+          "r": 29.04
+        }
+      ],
+      "synthetic_evaluation": {
+        "center_tolerance_px": 5,
+        "radius_tolerance_px": 5,
+        "truth_count": 5,
+        "matched_count": 5,
+        "false_positive_ids": [],
+        "missed_truth_ids": [],
+        "mean_center_error_px": 1.077,
+        "max_center_error_px": 2.088,
+        "mean_radius_error_px": 0.552,
+        "max_radius_error_px": 2.08,
+        "matches": [
+          {
+            "truth_id": 1,
+            "detection_id": 1,
+            "center_error_px": 0.849,
+            "radius_error_px": 0.48
+          },
+          {
+            "truth_id": 2,
+            "detection_id": 2,
+            "center_error_px": 1.166,
+            "radius_error_px": 0.08
+          },
+          {
+            "truth_id": 3,
+            "detection_id": 3,
+            "center_error_px": 0.0,
+            "radius_error_px": 0.08
+          },
+          {
+            "truth_id": 4,
+            "detection_id": 5,
+            "center_error_px": 1.281,
+            "radius_error_px": 0.04
+          },
+          {
+            "truth_id": 5,
+            "detection_id": 4,
+            "center_error_px": 2.088,
+            "radius_error_px": 2.08
+          }
+        ]
+      }
+    },
+    {
+      "image": "synthetic_noisy.png",
+      "width": 384,
+      "height": 303,
+      "count": 5,
+      "circles": [
+        {
+          "id": 1,
+          "x": 71.4,
+          "y": 66.6,
+          "r": 23.52
+        },
+        {
+          "id": 2,
+          "x": 192.6,
+          "y": 67.8,
+          "r": 32.52
+        },
+        {
+          "id": 3,
+          "x": 315.0,
+          "y": 75.0,
+          "r": 22.2
+        },
+        {
+          "id": 4,
+          "x": 274.2,
+          "y": 210.6,
+          "r": 33.72
+        },
+        {
+          "id": 5,
+          "x": 112.2,
+          "y": 214.2,
+          "r": 28.56
+        }
+      ],
+      "synthetic_evaluation": {
+        "center_tolerance_px": 5,
+        "radius_tolerance_px": 5,
+        "truth_count": 5,
+        "matched_count": 5,
+        "false_positive_ids": [],
+        "missed_truth_ids": [],
+        "mean_center_error_px": 0.661,
+        "max_center_error_px": 1.0,
+        "mean_radius_error_px": 0.384,
+        "max_radius_error_px": 0.52,
+        "matches": [
+          {
+            "truth_id": 1,
+            "detection_id": 1,
+            "center_error_px": 0.849,
+            "radius_error_px": 0.48
+          },
+          {
+            "truth_id": 2,
+            "detection_id": 2,
+            "center_error_px": 0.632,
+            "radius_error_px": 0.52
+          },
+          {
+            "truth_id": 3,
+            "detection_id": 3,
+            "center_error_px": 0.0,
+            "radius_error_px": 0.2
+          },
+          {
+            "truth_id": 4,
+            "detection_id": 5,
+            "center_error_px": 0.825,
+            "radius_error_px": 0.44
+          },
+          {
+            "truth_id": 5,
+            "detection_id": 4,
+            "center_error_px": 1.0,
+            "radius_error_px": 0.28
+          }
+        ]
+      }
+    }
+  ],
+  "errors": []
+}

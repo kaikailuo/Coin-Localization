@@ -1,0 +1,15 @@
+[gaussian]
+kernel_size = 5
+sigma = 1.2
+
+[canny]
+threshold1 = 50
+threshold2 = 120
+
+[hough]
+dp = 1.2
+minDist = 32
+param1 = 110
+param2 = 27
+minRadius = 12
+maxRadius = 37
