@@ -1,0 +1,1051 @@
+[
+  {
+    "image": "real/eurocoin-vision/data/train/gp1__22.png",
+    "source": "eurocoin-vision",
+    "scene": "plain",
+    "rectangle_count": 5,
+    "reference": "box-guided-fit",
+    "circles": [
+      {"id": 1, "x": 1923.55, "y": 3327.45, "r": 293.24},
+      {"id": 2, "x": 2661.19, "y": 1428.89, "r": 283.41},
+      {"id": 3, "x": 518.32, "y": 1205.6, "r": 315.38},
+      {"id": 4, "x": 1573.87, "y": 2084.33, "r": 268.99},
+      {"id": 5, "x": 1295.47, "y": 4622.68, "r": 310.17}
+    ],
+    "capture_group": "gp1",
+    "image_sha256": "208ae0b6cf913281d49694668f730e4bfea2d8135fa0ff41a050d8734b0bcb13"
+  },
+  {
+    "image": "real/eurocoin-vision/data/train/gp2__1.jpeg",
+    "source": "eurocoin-vision",
+    "scene": "plain",
+    "rectangle_count": 8,
+    "reference": "box-guided-fit",
+    "circles": [
+      {"id": 1, "x": 156.44, "y": 1399.87, "r": 138.03},
+      {"id": 2, "x": 1503.99, "y": 1411.76, "r": 137.24},
+      {"id": 3, "x": 683.33, "y": 1049.24, "r": 163.02},
+      {"id": 4, "x": 1093.88, "y": 1311.0, "r": 181.68},
+      {"id": 5, "x": 1478.89, "y": 952.99, "r": 135.51},
+      {"id": 6, "x": 820.23, "y": 444.23, "r": 157.07},
+      {"id": 7, "x": 1433.39, "y": 512.06, "r": 174.8},
+      {"id": 8, "x": 408.09, "y": 633.57, "r": 113.88}
+    ],
+    "capture_group": "gp2",
+    "image_sha256": "7bc90852d9ceff0fd78f1c75d362864dfca62dcf50f946fc8e02566d5c24f419"
+  },
+  {
+    "image": "real/eurocoin-vision/data/train/gp2__10.jpeg",
+    "source": "eurocoin-vision",
+    "scene": "plain",
+    "rectangle_count": 6,
+    "reference": "box-guided-fit",
+    "circles": [
+      {"id": 1, "x": 1263.81, "y": 819.16, "r": 175.12},
+      {"id": 2, "x": 881.66, "y": 788.8, "r": 206.46},
+      {"id": 3, "x": 658.93, "y": 1135.85, "r": 199.72},
+      {"id": 4, "x": 1109.69, "y": 1235.16, "r": 234.8},
+      {"id": 5, "x": 1525.2, "y": 1101.11, "r": 207.28},
+      {"id": 6, "x": 1128.46, "y": 375.85, "r": 253.66}
+    ],
+    "capture_group": "gp2",
+    "image_sha256": "72c71f743449ed258e63db6fc0f497ccf3864793e5466b6eea4628c8eda34f03"
+  },
+  {
+    "image": "real/eurocoin-vision/data/train/gp5__8.jpg",
+    "source": "eurocoin-vision",
+    "scene": "plain",
+    "rectangle_count": 6,
+    "reference": "box-guided-fit",
+    "circles": [
+      {"id": 1, "x": 934.06, "y": 968.65, "r": 137.63},
+      {"id": 2, "x": 463.16, "y": 959.47, "r": 110.71},
+      {"id": 3, "x": 729.74, "y": 627.09, "r": 137.37},
+      {"id": 4, "x": 1119.71, "y": 681.91, "r": 132.82},
+      {"id": 5, "x": 813.78, "y": 1530.04, "r": 149.0},
+      {"id": 6, "x": 681.65, "y": 1197.47, "r": 121.49}
+    ],
+    "capture_group": "gp5",
+    "image_sha256": "e59714d241997933b4c1302175dcc083b3a91124413eb8897be3f37734cbbe3a"
+  },
+  {
+    "image": "real/eurocoin-vision/data/train/gp7__gp7_01.webp",
+    "source": "eurocoin-vision",
+    "scene": "plain",
+    "rectangle_count": 7,
+    "reference": "box-guided-fit",
+    "circles": [
+      {"id": 1, "x": 899.41, "y": 687.88, "r": 85.65},
+      {"id": 2, "x": 403.69, "y": 645.27, "r": 63.01},
+      {"id": 3, "x": 284.83, "y": 459.66, "r": 75.81},
+      {"id": 4, "x": 712.58, "y": 231.99, "r": 66.87},
+      {"id": 5, "x": 669.52, "y": 474.89, "r": 59.79},
+      {"id": 6, "x": 446.13, "y": 243.59, "r": 74.5},
+      {"id": 7, "x": 590.53, "y": 747.52, "r": 71.2}
+    ],
+    "capture_group": "gp7",
+    "image_sha256": "68c46eb196ca65d0d04796eb276ed392f487103dd963bb1ca6037f65a64ebffb"
+  },
+  {
+    "image": "real/eurocoin-vision/data/train/gp1__23.png",
+    "source": "eurocoin-vision",
+    "scene": "textured",
+    "rectangle_count": 8,
+    "reference": "box-guided-fit",
+    "circles": [
+      {"id": 1, "x": 3109.01, "y": 3673.31, "r": 293.53},
+      {"id": 2, "x": 1416.25, "y": 4047.74, "r": 258.08},
+      {"id": 3, "x": 3136.13, "y": 2667.23, "r": 307.4},
+      {"id": 4, "x": 2698.97, "y": 1783.37, "r": 306.46},
+      {"id": 5, "x": 1716.12, "y": 2195.19, "r": 339.97},
+      {"id": 6, "x": 2371.5, "y": 4033.31, "r": 212.28},
+      {"id": 7, "x": 1783.16, "y": 3188.17, "r": 248.88},
+      {"id": 8, "x": 2503.4, "y": 3494.14, "r": 211.62}
+    ],
+    "capture_group": "gp1",
+    "image_sha256": "9935a7d91891da0dd7e30415c4337333db5b5073a40086bb3f1f6e3e3ee402aa"
+  },
+  {
+    "image": "real/eurocoin-vision/data/train/gp5__0.jpeg",
+    "source": "eurocoin-vision",
+    "scene": "textured",
+    "rectangle_count": 2,
+    "reference": "box-guided-fit",
+    "circles": [
+      {"id": 1, "x": 310.95, "y": 1128.53, "r": 167.51},
+      {"id": 2, "x": 821.01, "y": 1305.34, "r": 229.36}
+    ],
+    "capture_group": "gp5",
+    "image_sha256": "f1decd9a7dcf06ce2c98eb9580aea984e1f1468f96aae0c1d182b2dbf0bcb5cf"
+  },
+  {
+    "image": "real/eurocoin-vision/data/train/gp5__10.jpg",
+    "source": "eurocoin-vision",
+    "scene": "textured",
+    "rectangle_count": 9,
+    "reference": "box-guided-fit",
+    "circles": [
+      {"id": 1, "x": 357.66, "y": 1387.78, "r": 101.3},
+      {"id": 2, "x": 638.01, "y": 939.37, "r": 110.16},
+      {"id": 3, "x": 293.46, "y": 1044.91, "r": 125.92},
+      {"id": 4, "x": 885.11, "y": 1224.86, "r": 97.0},
+      {"id": 5, "x": 1131.24, "y": 993.61, "r": 133.18},
+      {"id": 6, "x": 672.99, "y": 1708.81, "r": 99.48},
+      {"id": 7, "x": 390.56, "y": 1863.58, "r": 101.57},
+      {"id": 8, "x": 735.42, "y": 596.16, "r": 100.29},
+      {"id": 9, "x": 648.49, "y": 1207.59, "r": 80.79}
+    ],
+    "capture_group": "gp5",
+    "image_sha256": "651c0c94727631d580d6c3562f11c5a8841f2cf77ac13c1695a7509c7c67fb38"
+  },
+  {
+    "image": "real/eurocoin-vision/data/train/gp5__11.jpg",
+    "source": "eurocoin-vision",
+    "scene": "textured",
+    "rectangle_count": 12,
+    "reference": "box-guided-fit",
+    "circles": [
+      {"id": 1, "x": 1064.05, "y": 321.86, "r": 78.91},
+      {"id": 2, "x": 1347.82, "y": 966.34, "r": 91.38},
+      {"id": 3, "x": 1826.3, "y": 390.95, "r": 91.93},
+      {"id": 4, "x": 1393.44, "y": 757.4, "r": 75.34},
+      {"id": 5, "x": 1279.05, "y": 1263.09, "r": 75.24},
+      {"id": 6, "x": 1214.41, "y": 480.92, "r": 73.47},
+      {"id": 7, "x": 1031.65, "y": 556.87, "r": 69.27},
+      {"id": 8, "x": 1087.33, "y": 835.76, "r": 89.46},
+      {"id": 9, "x": 1844.5, "y": 1040.15, "r": 74.89},
+      {"id": 10, "x": 1689.91, "y": 831.65, "r": 62.95},
+      {"id": 11, "x": 1597.15, "y": 619.9, "r": 93.74},
+      {"id": 12, "x": 1482.81, "y": 476.17, "r": 84.32}
+    ],
+    "capture_group": "gp5",
+    "image_sha256": "8cc6f7b6601de2f71c06c738653edd97b1ef1d2ad5407a69c9ba1e1ff45f2681"
+  },
+  {
+    "image": "real/eurocoin-vision/data/train/gp5__7.jpg",
+    "source": "eurocoin-vision",
+    "scene": "textured",
+    "rectangle_count": 3,
+    "reference": "box-guided-fit",
+    "circles": [
+      {"id": 1, "x": 1212.62, "y": 1590.89, "r": 389.69},
+      {"id": 2, "x": 1969.09, "y": 2959.22, "r": 382.06},
+      {"id": 3, "x": 2036.72, "y": 987.97, "r": 317.4}
+    ],
+    "capture_group": "gp5",
+    "image_sha256": "72c8aa3a5f626d7fd855c2dd496a00fa942c7e250692284969d89432252da9f9"
+  },
+  {
+    "image": "real/eurocoin-vision/data/train/gp2__8.jpeg",
+    "source": "eurocoin-vision",
+    "scene": "lighting",
+    "rectangle_count": 3,
+    "reference": "box-guided-fit",
+    "circles": [
+      {"id": 1, "x": 575.42, "y": 1110.35, "r": 155.37},
+      {"id": 2, "x": 936.41, "y": 1124.73, "r": 161.73},
+      {"id": 3, "x": 809.85, "y": 1444.27, "r": 172.0}
+    ],
+    "capture_group": "gp2",
+    "image_sha256": "5896781fd4b12d79d8094d0733588bdaaeaf157a6eb04e337374123960cbf5a1"
+  },
+  {
+    "image": "real/eurocoin-vision/data/train/gp5__20.jpg",
+    "source": "eurocoin-vision",
+    "scene": "lighting",
+    "rectangle_count": 12,
+    "reference": "box-guided-fit",
+    "circles": [
+      {"id": 1, "x": 785.79, "y": 1363.1, "r": 211.53},
+      {"id": 2, "x": 1877.7, "y": 685.69, "r": 147.93},
+      {"id": 3, "x": 1123.15, "y": 1703.97, "r": 221.17},
+      {"id": 4, "x": 1197.43, "y": 1290.14, "r": 206.43},
+      {"id": 5, "x": 1279.24, "y": 2134.42, "r": 229.41},
+      {"id": 6, "x": 1608.44, "y": 1277.44, "r": 204.12},
+      {"id": 7, "x": 2312.16, "y": 1046.2, "r": 211.25},
+      {"id": 8, "x": 1178.64, "y": 895.16, "r": 177.13},
+      {"id": 9, "x": 1643.49, "y": 1875.62, "r": 217.02},
+      {"id": 10, "x": 2074.14, "y": 1747.02, "r": 225.04},
+      {"id": 11, "x": 1977.79, "y": 1256.79, "r": 173.37},
+      {"id": 12, "x": 1699.83, "y": 940.95, "r": 147.02}
+    ],
+    "capture_group": "gp5",
+    "image_sha256": "07c11e8da081eef78312a3fca21575ae1218aca2263b3395753ecd530264e6b4"
+  },
+  {
+    "image": "real/eurocoin-vision/data/train/gp5__21.jpg",
+    "source": "eurocoin-vision",
+    "scene": "lighting",
+    "rectangle_count": 8,
+    "reference": "box-guided-fit",
+    "circles": [
+      {"id": 1, "x": 1070.96, "y": 1242.39, "r": 181.49},
+      {"id": 2, "x": 525.54, "y": 1748.41, "r": 196.56},
+      {"id": 3, "x": 1409.71, "y": 1049.66, "r": 211.58},
+      {"id": 4, "x": 1231.4, "y": 1562.41, "r": 180.88},
+      {"id": 5, "x": 855.73, "y": 1552.34, "r": 189.93},
+      {"id": 6, "x": 1083.03, "y": 1889.95, "r": 181.4},
+      {"id": 7, "x": 1566.92, "y": 1516.05, "r": 158.2},
+      {"id": 8, "x": 1123.56, "y": 2374.84, "r": 154.55}
+    ],
+    "capture_group": "gp5",
+    "image_sha256": "e1163ccedab5b062e828628cae46f964d6487d843716dc83f988490c7d1e655c"
+  },
+  {
+    "image": "real/eurocoin-vision/data/train/gp6__63.jpg",
+    "source": "eurocoin-vision",
+    "scene": "lighting",
+    "rectangle_count": 9,
+    "reference": "box-guided-fit",
+    "circles": [
+      {"id": 1, "x": 1225.9, "y": 322.76, "r": 157.22},
+      {"id": 2, "x": 961.1, "y": 1597.01, "r": 191.37},
+      {"id": 3, "x": 440.65, "y": 1606.72, "r": 194.73},
+      {"id": 4, "x": 1447.35, "y": 1228.86, "r": 198.27},
+      {"id": 5, "x": 599.21, "y": 2157.96, "r": 205.47},
+      {"id": 6, "x": 759.47, "y": 1171.4, "r": 182.49},
+      {"id": 7, "x": 1100.85, "y": 2127.0, "r": 164.14},
+      {"id": 8, "x": 979.35, "y": 746.14, "r": 211.46},
+      {"id": 9, "x": 306.37, "y": 839.49, "r": 159.83}
+    ],
+    "capture_group": "gp6",
+    "image_sha256": "14f99ce498b1b7756bada45f251a7d0890175d9aeff404f7ce29272e778ddee3"
+  },
+  {
+    "image": "real/eurocoin-vision/data/train/gp8__IMG_1136.png",
+    "source": "eurocoin-vision",
+    "scene": "lighting",
+    "rectangle_count": 5,
+    "reference": "box-guided-fit",
+    "circles": [
+      {"id": 1, "x": 1197.77, "y": 1426.17, "r": 278.68},
+      {"id": 2, "x": 1719.85, "y": 2841.57, "r": 345.9},
+      {"id": 3, "x": 2012.15, "y": 2079.71, "r": 259.44},
+      {"id": 4, "x": 951.64, "y": 2480.67, "r": 252.14},
+      {"id": 5, "x": 1470.54, "y": 1995.28, "r": 218.91}
+    ],
+    "capture_group": "gp8",
+    "image_sha256": "504f7f27a6fd0d47c3b2c5e3666d22361fb2daf1166dfe52171cbf83687b6862"
+  },
+  {
+    "image": "real/eurocoin-vision/data/train/gp2__3.jpeg",
+    "source": "eurocoin-vision",
+    "scene": "crowded",
+    "rectangle_count": 3,
+    "reference": "visual-only",
+    "capture_group": "gp2",
+    "image_sha256": "ba26af67b8d8ca21b1c30b00343406248883e7a3174785a0180aeccb3ccd9380"
+  },
+  {
+    "image": "real/eurocoin-vision/data/train/gp2__12.jpeg",
+    "source": "eurocoin-vision",
+    "scene": "crowded",
+    "rectangle_count": 2,
+    "reference": "box-guided-fit",
+    "circles": [
+      {"id": 1, "x": 486.31, "y": 994.08, "r": 287.23},
+      {"id": 2, "x": 861.75, "y": 496.21, "r": 313.05}
+    ],
+    "capture_group": "gp2",
+    "image_sha256": "2416bf4b291241e92143c57112bda39e9e34ceed60306e9a6d522e9cf0265413"
+  },
+  {
+    "image": "real/eurocoin-vision/data/train/gp5__22.jpg",
+    "source": "eurocoin-vision",
+    "scene": "crowded",
+    "rectangle_count": 12,
+    "reference": "box-guided-fit",
+    "circles": [
+      {"id": 1, "x": 1814.22, "y": 1441.45, "r": 367.05},
+      {"id": 2, "x": 1424.68, "y": 2657.45, "r": 368.33},
+      {"id": 3, "x": 565.74, "y": 2083.15, "r": 327.53},
+      {"id": 4, "x": 1855.98, "y": 2125.85, "r": 330.35},
+      {"id": 5, "x": 1724.0, "y": 3277.42, "r": 331.74},
+      {"id": 6, "x": 1218.84, "y": 1889.35, "r": 358.33},
+      {"id": 7, "x": 683.35, "y": 1400.85, "r": 372.14},
+      {"id": 8, "x": 2318.82, "y": 2937.63, "r": 383.22},
+      {"id": 9, "x": 2576.1, "y": 2210.06, "r": 388.27},
+      {"id": 10, "x": 825.04, "y": 2608.18, "r": 255.97},
+      {"id": 11, "x": 1143.76, "y": 3315.07, "r": 257.24},
+      {"id": 12, "x": 1092.51, "y": 897.53, "r": 288.92}
+    ],
+    "capture_group": "gp5",
+    "image_sha256": "245467cff2ef4d7940bee05824ef5d7de8582d4d165e03a6a61905481d08ea7c"
+  },
+  {
+    "image": "real/eurocoin-vision/data/train/gp8__IMG_1139.png",
+    "source": "eurocoin-vision",
+    "scene": "crowded",
+    "rectangle_count": 4,
+    "reference": "box-guided-fit",
+    "circles": [
+      {"id": 1, "x": 1873.05, "y": 1993.04, "r": 365.77},
+      {"id": 2, "x": 1205.61, "y": 2269.28, "r": 361.61},
+      {"id": 3, "x": 1322.71, "y": 1572.08, "r": 329.83},
+      {"id": 4, "x": 1724.43, "y": 2598.94, "r": 251.33}
+    ],
+    "capture_group": "gp8",
+    "image_sha256": "b7cc849a979eea5b5d36e593793b63162c4e809abf2a24d5b04da0d331c17fe9"
+  },
+  {
+    "image": "real/eurocoin-vision/data/train/gp8__IMG_1140.png",
+    "source": "eurocoin-vision",
+    "scene": "crowded",
+    "rectangle_count": 11,
+    "reference": "box-guided-fit",
+    "circles": [
+      {"id": 1, "x": 1464.72, "y": 2029.77, "r": 317.29},
+      {"id": 2, "x": 1870.4, "y": 2505.05, "r": 259.7},
+      {"id": 3, "x": 1018.52, "y": 3204.61, "r": 318.36},
+      {"id": 4, "x": 1514.28, "y": 839.5, "r": 258.85},
+      {"id": 5, "x": 579.07, "y": 2552.29, "r": 218.92},
+      {"id": 6, "x": 2448.53, "y": 1640.26, "r": 294.37},
+      {"id": 7, "x": 1094.34, "y": 1102.44, "r": 219.75},
+      {"id": 8, "x": 1130.13, "y": 2564.88, "r": 317.08},
+      {"id": 9, "x": 1080.93, "y": 1605.58, "r": 259.38},
+      {"id": 10, "x": 1778.35, "y": 1550.15, "r": 255.96},
+      {"id": 11, "x": 715.06, "y": 1898.49, "r": 216.47}
+    ],
+    "capture_group": "gp8",
+    "image_sha256": "102542a4d8fdfed7056a83c64ac7aecfc6300402b02bed90880daaf6bad53253"
+  },
+  {
+    "image": "real/commons-coins/coin-collection.jpg",
+    "source": "wikimedia-commons",
+    "scene": "clutter",
+    "reference": "visual-only",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Coin_collection.jpg",
+    "image_sha256": "512b5eb8799a6e156e0ba69d4ed8fa28834840980f9d97f1e8582c284effc15c"
+  },
+  {
+    "image": "real/commons-coins/ukrainian-coin-pile.jpg",
+    "source": "wikimedia-commons",
+    "scene": "piled",
+    "reference": "visual-only",
+    "source_url": "https://commons.wikimedia.org/wiki/File:A_pile_of_Ukrainian_currency_coins.jpg",
+    "image_sha256": "21b06397bd16e70991ff9fdc928b33cea1c85e66426fafd40795c04569365e2a"
+  },
+  {
+    "image": "real/commons-coins/wooden-blocks-and-coins.jpg",
+    "source": "wikimedia-commons",
+    "scene": "side_view",
+    "reference": "visual-only",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Wooden_blocks_with_text_LOSS_and_coins_(53156710314).jpg",
+    "image_sha256": "2a8f4716c714b9a8188259916405be5b0c852932b2572bd4e6c45464e2b941fe"
+  },
+  {
+    "image": "real/brazilian-coins/100_1477860708.jpg",
+    "source": "brazilian-coins",
+    "scene": "8_or_more_coins",
+    "reference": "labelme-circle",
+    "archive_image": "COCO_labelme_regression/regression/100_1477860708.jpg",
+    "archive_label": "COCO_labelme_regression/regression/100_1477860708.json",
+    "image_sha256": "6360c4869006ad85e1cacf017d8c695b04745c7171f34b3363ec9ec53a28946f",
+    "label_sha256": "f3727b05b6055048e4184566b87838d55139d49abcc0fe87a81e0ec8417efe86",
+    "circles": [
+      {"id": 1, "x": 309.78260869565213, "y": 367.8405797101449, "r": 32.31754},
+      {"id": 2, "x": 232.2463768115942, "y": 404.0724637681159, "r": 31.21835},
+      {"id": 3, "x": 284.42028985507244, "y": 300.4492753623188, "r": 32.18729},
+      {"id": 4, "x": 261.231884057971, "y": 214.94202898550722, "r": 32.47962},
+      {"id": 5, "x": 161.9565217391304, "y": 273.63768115942025, "r": 32.09744},
+      {"id": 6, "x": 445.28985507246375, "y": 183.05797101449275, "r": 31.95808},
+      {"id": 7, "x": 504.71014492753613, "y": 122.91304347826086, "r": 32.73727},
+      {"id": 8, "x": 149.63768115942028, "y": 118.56521739130434, "r": 33.40415},
+      {"id": 9, "x": 40.942028985507235, "y": 98.99999999999999, "r": 30.5725},
+      {"id": 10, "x": 90.94202898550724, "y": 333.05797101449275, "r": 32.17914}
+    ]
+  },
+  {
+    "image": "real/brazilian-coins/10_1477788078.jpg",
+    "source": "brazilian-coins",
+    "scene": "2_coins",
+    "reference": "labelme-circle",
+    "archive_image": "COCO_labelme_regression/regression/10_1477788078.jpg",
+    "archive_label": "COCO_labelme_regression/regression/10_1477788078.json",
+    "image_sha256": "a863d9385ec338269ef776df0cc8e797388b2740e942026be2dc3e1113c7baa9",
+    "label_sha256": "f5fbdf76c863b0e87b3393453c8ff371ec36b1de6e0c09f98663139be3972b01",
+    "circles": [
+      {"id": 1, "x": 156.5693430656934, "y": 199.99999999999997, "r": 35.15794},
+      {"id": 2, "x": 244.8905109489051, "y": 332.11678832116786, "r": 35.76642}
+    ]
+  },
+  {
+    "image": "real/brazilian-coins/110_1479345618.jpg",
+    "source": "brazilian-coins",
+    "scene": "4_to_7_coins",
+    "reference": "labelme-circle",
+    "archive_image": "COCO_labelme_regression/regression/110_1479345618.jpg",
+    "archive_label": "COCO_labelme_regression/regression/110_1479345618.json",
+    "image_sha256": "ba1e6e360f48492784a3d393ef10794f546aa8bafc468e0297167cd38d2a9a66",
+    "label_sha256": "4fe9464cf7ea45f0bcdb397942bd8ed093b814e7a37df586112850e9ffd9f59f",
+    "circles": [
+      {"id": 1, "x": 268.00729927007296, "y": 96.81021897810218, "r": 41.50327},
+      {"id": 2, "x": 486.98540145985396, "y": 89.51094890510949, "r": 40.85636},
+      {"id": 3, "x": 407.42335766423355, "y": 197.54014598540144, "r": 40.31154},
+      {"id": 4, "x": 219.10218978102188, "y": 252.2846715328467, "r": 41.32315},
+      {"id": 5, "x": 449.7591240875912, "y": 295.35036496350364, "r": 35.61715},
+      {"id": 6, "x": 137.35036496350364, "y": 154.47445255474452, "r": 35.22607}
+    ]
+  },
+  {
+    "image": "real/brazilian-coins/115_1479347610.jpg",
+    "source": "brazilian-coins",
+    "scene": "8_or_more_coins",
+    "reference": "labelme-circle",
+    "archive_image": "COCO_labelme_regression/regression/115_1479347610.jpg",
+    "archive_label": "COCO_labelme_regression/regression/115_1479347610.json",
+    "image_sha256": "628244c0632ac35b034637499f8cdc1803e73f28f13b5d4f503cab50a3778086",
+    "label_sha256": "afc733d12135acf3723eceb1f76d30a4483019ab9b170d88737c69b987e31d26",
+    "circles": [
+      {"id": 1, "x": 136.1726618705036, "y": 418.70503597122297, "r": 39.73151},
+      {"id": 2, "x": 508.115107913669, "y": 319.42446043165467, "r": 39.62716},
+      {"id": 3, "x": 510.9928057553956, "y": 237.41007194244602, "r": 41.06395},
+      {"id": 4, "x": 605.956834532374, "y": 258.273381294964, "r": 32.76345},
+      {"id": 5, "x": 585.0935251798561, "y": 49.640287769784166, "r": 31.14368},
+      {"id": 6, "x": 45.5251798561151, "y": 424.46043165467626, "r": 33.32729},
+      {"id": 7, "x": 437.61151079136687, "y": 348.9208633093525, "r": 34.89765},
+      {"id": 8, "x": 195.16546762589925, "y": 61.15107913669064, "r": 36.71885},
+      {"id": 9, "x": 443.36690647482015, "y": 51.79856115107913, "r": 35.36906}
+    ]
+  },
+  {
+    "image": "real/brazilian-coins/120_1479423054.jpg",
+    "source": "brazilian-coins",
+    "scene": "8_or_more_coins",
+    "reference": "labelme-circle",
+    "archive_image": "COCO_labelme_regression/regression/120_1479423054.jpg",
+    "archive_label": "COCO_labelme_regression/regression/120_1479423054.json",
+    "image_sha256": "662070e2b5014d95a0674fe953129f5fc4f42aec2c24e857c4f930a15097abc1",
+    "label_sha256": "35a004b7ae82b656cd8e2e80d846ecbc8a69ab7023c9e929c5c0cf2266b0dcbe",
+    "circles": [
+      {"id": 1, "x": 270.2446043165467, "y": 71.22302158273381, "r": 31.68736},
+      {"id": 2, "x": 240.02877697841723, "y": 166.90647482014387, "r": 31.21009},
+      {"id": 3, "x": 512.6906474820144, "y": 190.64748201438846, "r": 33.72098},
+      {"id": 4, "x": 222.04316546762587, "y": 248.92086330935248, "r": 31.93143},
+      {"id": 5, "x": 101.89928057553956, "y": 210.7913669064748, "r": 32.11729},
+      {"id": 6, "x": 140.02877697841726, "y": 293.5251798561151, "r": 31.86652},
+      {"id": 7, "x": 501.1798561151079, "y": 318.70503597122297, "r": 31.42493},
+      {"id": 8, "x": 470.2446043165467, "y": 376.978417266187, "r": 30.90177},
+      {"id": 9, "x": 253.69784172661866, "y": 335.9712230215827, "r": 32.12534},
+      {"id": 10, "x": 110.53237410071941, "y": 351.07913669064743, "r": 30.99375},
+      {"id": 11, "x": 305.4964028776978, "y": 248.20143884892084, "r": 36.47134},
+      {"id": 12, "x": 350.82014388489205, "y": 147.4820143884892, "r": 37.96626},
+      {"id": 13, "x": 99.74100719424459, "y": 135.97122302158272, "r": 35.13415},
+      {"id": 14, "x": 584.6330935251798, "y": 274.1007194244604, "r": 34.65207}
+    ]
+  },
+  {
+    "image": "real/brazilian-coins/130_1477862382.jpg",
+    "source": "brazilian-coins",
+    "scene": "4_to_7_coins",
+    "reference": "labelme-circle",
+    "archive_image": "COCO_labelme_regression/regression/130_1477862382.jpg",
+    "archive_label": "COCO_labelme_regression/regression/130_1477862382.json",
+    "image_sha256": "87327e21ed5b9c9956d2a9f7c59129d7824e70027f4596117ae8259f0ef95a65",
+    "label_sha256": "5c08718e589dfd58d623276cf98205974f2f9a14f9a749ef63d7ddb459f32bba",
+    "circles": [
+      {"id": 1, "x": 546.0144927536231, "y": 396.8260869565217, "r": 40.60558},
+      {"id": 2, "x": 360.50724637681157, "y": 341.0289855072464, "r": 35.86774},
+      {"id": 3, "x": 225.7246376811594, "y": 315.66666666666663, "r": 32.01554},
+      {"id": 4, "x": 261.231884057971, "y": 189.57971014492753, "r": 36.49182},
+      {"id": 5, "x": 580.0724637681159, "y": 99.72463768115941, "r": 30.76085}
+    ]
+  },
+  {
+    "image": "real/brazilian-coins/130_1477862406.jpg",
+    "source": "brazilian-coins",
+    "scene": "4_to_7_coins",
+    "reference": "labelme-circle",
+    "archive_image": "COCO_labelme_regression/regression/130_1477862406.jpg",
+    "archive_label": "COCO_labelme_regression/regression/130_1477862406.json",
+    "image_sha256": "31a6fb38c623da5619e958ac523e6bae2db5ccd6c27c2f61d9d0105c1d4fd568",
+    "label_sha256": "9e30aadc4fcf3a920e784ec789a2b606d62d89ada9eb28fef91589ca25a42a90",
+    "circles": [
+      {"id": 1, "x": 321.2919708029197, "y": 299.0, "r": 41.83571},
+      {"id": 2, "x": 212.53284671532845, "y": 221.62773722627736, "r": 34.61578},
+      {"id": 3, "x": 437.35036496350364, "y": 366.15328467153284, "r": 32.06698},
+      {"id": 4, "x": 181.8759124087591, "y": 296.81021897810217, "r": 32.14995},
+      {"id": 5, "x": 159.24817518248173, "y": 357.3941605839416, "r": 30.49138}
+    ]
+  },
+  {
+    "image": "real/brazilian-coins/135_1479426894.jpg",
+    "source": "brazilian-coins",
+    "scene": "4_to_7_coins",
+    "reference": "labelme-circle",
+    "archive_image": "COCO_labelme_regression/regression/135_1479426894.jpg",
+    "archive_label": "COCO_labelme_regression/regression/135_1479426894.json",
+    "image_sha256": "7d977bc26415cd5a6b2a209d077cffb0383e5a5e816eaade1f6689d7cd5c1319",
+    "label_sha256": "c02033342a35764beffc61932ba458b919efd5568d217f764ff77741488376db",
+    "circles": [
+      {"id": 1, "x": 317.156862745098, "y": 295.5882352941176, "r": 37.97675},
+      {"id": 2, "x": 421.078431372549, "y": 298.03921568627453, "r": 37.28392},
+      {"id": 3, "x": 229.41176470588238, "y": 253.92156862745097, "r": 33.55248},
+      {"id": 4, "x": 438.7254901960784, "y": 202.45098039215685, "r": 31.95687},
+      {"id": 5, "x": 184.31372549019608, "y": 150.0, "r": 33.99714},
+      {"id": 6, "x": 246.078431372549, "y": 69.6078431372549, "r": 36.18829}
+    ]
+  },
+  {
+    "image": "real/brazilian-coins/135_1479426930.jpg",
+    "source": "brazilian-coins",
+    "scene": "4_to_7_coins",
+    "reference": "labelme-circle",
+    "archive_image": "COCO_labelme_regression/regression/135_1479426930.jpg",
+    "archive_label": "COCO_labelme_regression/regression/135_1479426930.json",
+    "image_sha256": "a5825eadb37cc647bf73f31f11ade9157700b9e6513126e21abbce89e35d9825",
+    "label_sha256": "fcffcb661e57645b75edfdc65ab760139cd50f8a2b7d274b6f284e90e48a06f0",
+    "circles": [
+      {"id": 1, "x": 327.8613138686131, "y": 304.83941605839414, "r": 32.59433},
+      {"id": 2, "x": 226.4014598540146, "y": 328.92700729927003, "r": 32.42224},
+      {"id": 3, "x": 549.7591240875912, "y": 121.62773722627736, "r": 31.66571},
+      {"id": 4, "x": 518.3722627737226, "y": 220.8978102189781, "r": 35.22607},
+      {"id": 5, "x": 477.4963503649635, "y": 310.67883211678827, "r": 37.25489},
+      {"id": 6, "x": 453.4087591240875, "y": 163.96350364963502, "r": 37.29063}
+    ]
+  },
+  {
+    "image": "real/brazilian-coins/145_1479429024.jpg",
+    "source": "brazilian-coins",
+    "scene": "8_or_more_coins",
+    "reference": "labelme-circle",
+    "archive_image": "COCO_labelme_regression/regression/145_1479429024.jpg",
+    "archive_label": "COCO_labelme_regression/regression/145_1479429024.json",
+    "image_sha256": "732389f8f7dd483275e502220163b7c7ea088d2641d65127c718b85594a40aa3",
+    "label_sha256": "8e8330865768e7eea40f776e5a23d06fc2e984f57a4dc4d3ecc0e8ad1c0340a1",
+    "circles": [
+      {"id": 1, "x": 311.80291970802915, "y": 264.6934306569343, "r": 40.25863},
+      {"id": 2, "x": 51.218978102189766, "y": 219.43795620437953, "r": 37.25489},
+      {"id": 3, "x": 250.4890510948905, "y": 190.970802919708, "r": 30.79565},
+      {"id": 4, "x": 129.32116788321167, "y": 220.16788321167883, "r": 31.03692},
+      {"id": 5, "x": 235.8905109489051, "y": 326.73722627737226, "r": 29.79318},
+      {"id": 6, "x": 412.53284671532845, "y": 253.01459854014595, "r": 31.39535},
+      {"id": 7, "x": 401.58394160583936, "y": 177.83211678832114, "r": 31.58147},
+      {"id": 8, "x": 469.46715328467144, "y": 79.2919708029197, "r": 31.52237},
+      {"id": 9, "x": 573.1167883211679, "y": 326.00729927007296, "r": 29.46049},
+      {"id": 10, "x": 326.40145985401455, "y": 369.0729927007299, "r": 33.17757},
+      {"id": 11, "x": 481.1459854014598, "y": 351.5547445255474, "r": 34.21326},
+      {"id": 12, "x": 570.92700729927, "y": 45.715328467153284, "r": 31.82515},
+      {"id": 13, "x": 77.49635036496349, "y": 88.7810218978102, "r": 35.23363}
+    ]
+  },
+  {
+    "image": "real/brazilian-coins/150_1477864182.jpg",
+    "source": "brazilian-coins",
+    "scene": "8_or_more_coins",
+    "reference": "labelme-circle",
+    "archive_image": "COCO_labelme_regression/regression/150_1477864182.jpg",
+    "archive_label": "COCO_labelme_regression/regression/150_1477864182.json",
+    "image_sha256": "23670dc9475540f06be214db7b7139b14fa7352b4b6f5cda8f9ea9dc8f417c83",
+    "label_sha256": "956eec2425901c1d66d2352021e8a265e86a87b176806401feecbfe50f6e8398",
+    "circles": [
+      {"id": 1, "x": 127.89855072463766, "y": 85.231884057971, "r": 42.77818},
+      {"id": 2, "x": 438.0434782608695, "y": 77.9855072463768, "r": 32.08926},
+      {"id": 3, "x": 93.84057971014492, "y": 277.2608695652174, "r": 34.90317},
+      {"id": 4, "x": 130.79710144927535, "y": 217.8405797101449, "r": 35.18039},
+      {"id": 5, "x": 398.18840579710144, "y": 351.17391304347825, "r": 36.23913},
+      {"id": 6, "x": 190.2173913043478, "y": 339.5797101449275, "r": 34.84294},
+      {"id": 7, "x": 272.1014492753623, "y": 150.44927536231882, "r": 36.23913},
+      {"id": 8, "x": 564.1304347826086, "y": 258.42028985507244, "r": 35.38874},
+      {"id": 9, "x": 382.97101449275357, "y": 214.2173913043478, "r": 32.68108}
+    ]
+  },
+  {
+    "image": "real/brazilian-coins/150_1477864206.jpg",
+    "source": "brazilian-coins",
+    "scene": "8_or_more_coins",
+    "reference": "labelme-circle",
+    "archive_image": "COCO_labelme_regression/regression/150_1477864206.jpg",
+    "archive_label": "COCO_labelme_regression/regression/150_1477864206.json",
+    "image_sha256": "788585584d6ba117f9dc6fb4d348ea680fce30e4200a1a3eef1ba28ef971a037",
+    "label_sha256": "43a8f60a73b23b6519e588a80f99ba6278d17a81efdff187410946d4e08d7066",
+    "circles": [
+      {"id": 1, "x": 114.14728682170542, "y": 208.52713178294573, "r": 42.21071},
+      {"id": 2, "x": 382.3643410852713, "y": 118.60465116279069, "r": 32.34519},
+      {"id": 3, "x": 345.93023255813955, "y": 259.68992248062017, "r": 33.86098},
+      {"id": 4, "x": 531.9767441860465, "y": 224.03100775193798, "r": 34.64171},
+      {"id": 5, "x": 493.9922480620155, "y": 324.031007751938, "r": 35.50692},
+      {"id": 6, "x": 246.70542635658916, "y": 284.49612403100775, "r": 35.79348},
+      {"id": 7, "x": 207.17054263565893, "y": 389.1472868217054, "r": 35.35428},
+      {"id": 8, "x": 209.49612403100775, "y": 177.51937984496124, "r": 35.65891},
+      {"id": 9, "x": 270.73643410852713, "y": 105.42635658914729, "r": 36.19416}
+    ]
+  },
+  {
+    "image": "real/brazilian-coins/150_1479429852.jpg",
+    "source": "brazilian-coins",
+    "scene": "2_coins",
+    "reference": "labelme-circle",
+    "archive_image": "COCO_labelme_regression/regression/150_1479429852.jpg",
+    "archive_label": "COCO_labelme_regression/regression/150_1479429852.json",
+    "image_sha256": "f9265e8ceba6f0e28025c8d40fb3aebed37568bef79b1f47190c18a85aa88068",
+    "label_sha256": "5ab19dbdf24f0c2a9b5c9743da16af8ce9c64ed409042d8f7620d79d1ab41553",
+    "circles": [
+      {"id": 1, "x": 51.411167512690355, "y": 120.81218274111676, "r": 43.08446},
+      {"id": 2, "x": 417.9086294416244, "y": 366.497461928934, "r": 37.44322}
+    ]
+  },
+  {
+    "image": "real/brazilian-coins/150_1479429978.jpg",
+    "source": "brazilian-coins",
+    "scene": "4_to_7_coins",
+    "reference": "labelme-circle",
+    "archive_image": "COCO_labelme_regression/regression/150_1479429978.jpg",
+    "archive_label": "COCO_labelme_regression/regression/150_1479429978.json",
+    "image_sha256": "1ddd6ddbf18dcb446eef4970540af04e503704c3cf090c3d042a4db6061ff652",
+    "label_sha256": "14013aec8ade70a449833aa4c8c3da74f9c8ea9306a1e98b20d149ed932edbf7",
+    "circles": [
+      {"id": 1, "x": 176.531914893617, "y": 144.68085106382978, "r": 33.82995},
+      {"id": 2, "x": 361.10638297872345, "y": 82.97872340425532, "r": 33.59075},
+      {"id": 3, "x": 356.8510638297872, "y": 171.80851063829786, "r": 33.25213},
+      {"id": 4, "x": 230.2553191489361, "y": 236.17021276595744, "r": 33.68328},
+      {"id": 5, "x": 293.55319148936167, "y": 340.95744680851067, "r": 32.811},
+      {"id": 6, "x": 150.99999999999997, "y": 308.51063829787233, "r": 43.72392}
+    ]
+  },
+  {
+    "image": "real/brazilian-coins/150_1479430002.jpg",
+    "source": "brazilian-coins",
+    "scene": "4_to_7_coins",
+    "reference": "labelme-circle",
+    "archive_image": "COCO_labelme_regression/regression/150_1479430002.jpg",
+    "archive_label": "COCO_labelme_regression/regression/150_1479430002.json",
+    "image_sha256": "be2c6220932dd4ab1360cb8fd65b2d00c82281289a4adb7ce8eaf993fa9227c2",
+    "label_sha256": "5d5d2c19416a35a9240125335d77430cdc874b262707ebb1ec0a939f6cf70a82",
+    "circles": [
+      {"id": 1, "x": 215.48076923076923, "y": 389.4230769230769, "r": 42.81276},
+      {"id": 2, "x": 282.30769230769226, "y": 322.1153846153846, "r": 32.92129},
+      {"id": 3, "x": 476.53846153846155, "y": 248.07692307692307, "r": 32.00638},
+      {"id": 4, "x": 431.3461538461538, "y": 168.26923076923077, "r": 32.92129},
+      {"id": 5, "x": 289.5192307692308, "y": 209.1346153846154, "r": 32.97741},
+      {"id": 6, "x": 175.57692307692307, "y": 203.3653846153846, "r": 32.51152}
+    ]
+  },
+  {
+    "image": "real/brazilian-coins/170_1479423246.jpg",
+    "source": "brazilian-coins",
+    "scene": "8_or_more_coins",
+    "reference": "labelme-circle",
+    "archive_image": "COCO_labelme_regression/regression/170_1479423246.jpg",
+    "archive_label": "COCO_labelme_regression/regression/170_1479423246.json",
+    "image_sha256": "ec247ce68a8a52e23f497442d96eba5c2a33dcf47cc951a60e47738736a00be8",
+    "label_sha256": "ce0af44fa72246e39742f139a7815d9317b1efc75c200d6e1f6bc8eb3dcadce2",
+    "circles": [
+      {"id": 1, "x": 203.7737226277372, "y": 353.7445255474452, "r": 33.04885},
+      {"id": 2, "x": 59.248175182481745, "y": 230.3868613138686, "r": 31.82515},
+      {"id": 3, "x": 273.11678832116786, "y": 249.36496350364962, "r": 33.04885},
+      {"id": 4, "x": 286.2554744525547, "y": 413.5985401459854, "r": 32.19135},
+      {"id": 5, "x": 177.4963503649635, "y": 98.27007299270072, "r": 33.75074},
+      {"id": 6, "x": 487.7153284671532, "y": 236.22627737226276, "r": 32.05036},
+      {"id": 7, "x": 499.3941605839416, "y": 160.31386861313868, "r": 32.05036},
+      {"id": 8, "x": 443.91970802919707, "y": 104.10948905109488, "r": 36.05573},
+      {"id": 9, "x": 607.4233576642335, "y": 182.94160583941604, "r": 33.99454},
+      {"id": 10, "x": 503.0437956204379, "y": 321.62773722627736, "r": 35.11245},
+      {"id": 11, "x": 312.53284671532845, "y": 77.83211678832116, "r": 38.87161},
+      {"id": 12, "x": 417.64233576642334, "y": 36.22627737226277, "r": 33.09718},
+      {"id": 13, "x": 393.5547445255474, "y": 226.00729927007296, "r": 40.83679}
+    ]
+  },
+  {
+    "image": "real/brazilian-coins/170_1479423288.jpg",
+    "source": "brazilian-coins",
+    "scene": "8_or_more_coins",
+    "reference": "labelme-circle",
+    "archive_image": "COCO_labelme_regression/regression/170_1479423288.jpg",
+    "archive_label": "COCO_labelme_regression/regression/170_1479423288.json",
+    "image_sha256": "a7c6dd2c5d1e56e9772c9af7f85ce696d5ad8db9db896810b04ae39767d4a9aa",
+    "label_sha256": "2ca4b06933d7d27938155c2ee1b5133386f19ab1363932f1a2ab4c97b64c17a0",
+    "circles": [
+      {"id": 1, "x": 181.69565217391303, "y": 106.52173913043477, "r": 35.92625},
+      {"id": 2, "x": 564.3043478260869, "y": 281.15942028985506, "r": 33.36482},
+      {"id": 3, "x": 591.8405797101449, "y": 157.97101449275362, "r": 32.38247},
+      {"id": 4, "x": 426.62318840579707, "y": 197.1014492753623, "r": 31.91698},
+      {"id": 5, "x": 480.9710144927536, "y": 237.68115942028984, "r": 31.26037},
+      {"id": 6, "x": 550.536231884058, "y": 353.62318840579707, "r": 31.26037},
+      {"id": 7, "x": 449.086956521739, "y": 352.1739130434782, "r": 30.82905},
+      {"id": 8, "x": 278.0724637681159, "y": 336.95652173913044, "r": 30.74377},
+      {"id": 9, "x": 240.3913043478261, "y": 153.62318840579712, "r": 32.6087},
+      {"id": 10, "x": 299.8115942028985, "y": 124.63768115942028, "r": 32.38247},
+      {"id": 11, "x": 60.68115942028986, "y": 197.82608695652175, "r": 31.81811},
+      {"id": 12, "x": 189.66666666666666, "y": 312.3188405797101, "r": 37.97267},
+      {"id": 13, "x": 160.68115942028982, "y": 192.02898550724635, "r": 40.50848}
+    ]
+  },
+  {
+    "image": "real/brazilian-coins/35_1477789704.jpg",
+    "source": "brazilian-coins",
+    "scene": "4_to_7_coins",
+    "reference": "labelme-circle",
+    "archive_image": "COCO_labelme_regression/regression/35_1477789704.jpg",
+    "archive_label": "COCO_labelme_regression/regression/35_1477789704.json",
+    "image_sha256": "2d63ff20d2470b8ce5023bee13653df3ec6617275940c6cbafb08f5b3019d3ed",
+    "label_sha256": "bd6669013c71841f9b2788c96fae323c414a07a36054a22c757602287ff728f7",
+    "circles": [
+      {"id": 1, "x": 471.73076923076917, "y": 177.40384615384616, "r": 31.54081},
+      {"id": 2, "x": 333.75, "y": 306.25, "r": 32.73823},
+      {"id": 3, "x": 402.9807692307692, "y": 298.0769230769231, "r": 35.47608},
+      {"id": 4, "x": 559.2307692307692, "y": 290.38461538461536, "r": 34.68209},
+      {"id": 5, "x": 529.9038461538462, "y": 143.26923076923077, "r": 35.09615}
+    ]
+  },
+  {
+    "image": "real/brazilian-coins/35_1477789848.jpg",
+    "source": "brazilian-coins",
+    "scene": "4_to_7_coins",
+    "reference": "labelme-circle",
+    "archive_image": "COCO_labelme_regression/regression/35_1477789848.jpg",
+    "archive_label": "COCO_labelme_regression/regression/35_1477789848.json",
+    "image_sha256": "df4f94daea8f2c935e9e655c3a936908c1fc366ffdd4fb6465008b7425103fb2",
+    "label_sha256": "d63d37b841041b638aa85c31bfd12d32424ef9b8ab9c26b199ca3bc98273a385",
+    "circles": [
+      {"id": 1, "x": 304.71065989847716, "y": 223.85786802030458, "r": 32.91674},
+      {"id": 2, "x": 252.42639593908632, "y": 379.1878172588833, "r": 31.47208},
+      {"id": 3, "x": 402.6802030456853, "y": 169.54314720812184, "r": 35.59096},
+      {"id": 4, "x": 368.16243654822335, "y": 264.46700507614213, "r": 35.62352},
+      {"id": 5, "x": 368.67005076142135, "y": 336.0406091370558, "r": 34.65187}
+    ]
+  },
+  {
+    "image": "real/brazilian-coins/45_1477837026.jpg",
+    "source": "brazilian-coins",
+    "scene": "4_to_7_coins",
+    "reference": "labelme-circle",
+    "archive_image": "COCO_labelme_regression/regression/45_1477837026.jpg",
+    "archive_label": "COCO_labelme_regression/regression/45_1477837026.json",
+    "image_sha256": "08243c93123e31f849aae39f3eb89884454a1c69c0878bccd23286bd448e7c9d",
+    "label_sha256": "8209919dcfaad4593ccbe73e6f1e47b74584c4f3bb0ac0242a11b950913b233d",
+    "circles": [
+      {"id": 1, "x": 235.8905109489051, "y": 255.93430656934305, "r": 29.53274},
+      {"id": 2, "x": 370.1970802919708, "y": 253.01459854014595, "r": 31.99213},
+      {"id": 3, "x": 551.948905109489, "y": 166.15328467153284, "r": 32.06698},
+      {"id": 4, "x": 414.7226277372262, "y": 115.7883211678832, "r": 32.06698},
+      {"id": 5, "x": 146.83941605839414, "y": 149.36496350364962, "r": 35.54977}
+    ]
+  },
+  {
+    "image": "real/brazilian-coins/45_1477837068.jpg",
+    "source": "brazilian-coins",
+    "scene": "3_coins",
+    "reference": "labelme-circle",
+    "archive_image": "COCO_labelme_regression/regression/45_1477837068.jpg",
+    "archive_label": "COCO_labelme_regression/regression/45_1477837068.json",
+    "image_sha256": "db8312bac108318ea1ee6e023c1bf45e29409b42cdcd9032c687f31820910cb8",
+    "label_sha256": "40b94cdd283212bc52a39ea9923da521cafa79d61a8b886a0a64231cee53f4ca",
+    "circles": [
+      {"id": 1, "x": 91.66666666666666, "y": 88.37209302325581, "r": 39.90554},
+      {"id": 2, "x": 184.68992248062017, "y": 164.34108527131784, "r": 32.24284},
+      {"id": 3, "x": 145.93023255813952, "y": 334.8837209302325, "r": 32.04655}
+    ]
+  },
+  {
+    "image": "real/brazilian-coins/55_1477842174.jpg",
+    "source": "brazilian-coins",
+    "scene": "8_or_more_coins",
+    "reference": "labelme-circle",
+    "archive_image": "COCO_labelme_regression/regression/55_1477842174.jpg",
+    "archive_label": "COCO_labelme_regression/regression/55_1477842174.json",
+    "image_sha256": "86ebcf704c7fe49fde7f6b99930f94b6c67d59f7a011162c7349bf008d7b5b59",
+    "label_sha256": "fec52670be705a1995ac852c6c1fc2e3b6efce75a67d0fbe1eab96d56bbbdc18",
+    "circles": [
+      {"id": 1, "x": 368.546762589928, "y": 164.02877697841726, "r": 31.53181},
+      {"id": 2, "x": 345.5251798561151, "y": 239.568345323741, "r": 33.00739},
+      {"id": 3, "x": 316.0287769784172, "y": 397.1223021582733, "r": 34.17834},
+      {"id": 4, "x": 126.10071942446041, "y": 234.5323741007194, "r": 35.78368},
+      {"id": 5, "x": 257.03597122302153, "y": 107.91366906474819, "r": 36.94369},
+      {"id": 6, "x": 380.77697841726615, "y": 43.88489208633093, "r": 35.99999},
+      {"id": 7, "x": 500.9208633093525, "y": 117.2661870503597, "r": 35.53695},
+      {"id": 8, "x": 500.2014388489208, "y": 206.47482014388487, "r": 34.54736},
+      {"id": 9, "x": 251.2805755395683, "y": 229.49640287769782, "r": 36.15063}
+    ]
+  },
+  {
+    "image": "real/brazilian-coins/55_1477842204.jpg",
+    "source": "brazilian-coins",
+    "scene": "8_or_more_coins",
+    "reference": "labelme-circle",
+    "archive_image": "COCO_labelme_regression/regression/55_1477842204.jpg",
+    "archive_label": "COCO_labelme_regression/regression/55_1477842204.json",
+    "image_sha256": "344bce080fced7570ecc90c55b2c60cbba505ded96a68772c34e408eba310a9a",
+    "label_sha256": "400b84de606dcbf9496efa8b77149191371d70c66875b11f621b9662ab2d5a01",
+    "circles": [
+      {"id": 1, "x": 150.35135135135135, "y": 384.4594594594595, "r": 35.98885},
+      {"id": 2, "x": 119.94594594594594, "y": 303.3783783783784, "r": 32.03586},
+      {"id": 3, "x": 173.32432432432432, "y": 267.56756756756755, "r": 31.76394},
+      {"id": 4, "x": 58.45945945945947, "y": 168.24324324324326, "r": 34.19346},
+      {"id": 5, "x": 176.02702702702703, "y": 143.24324324324326, "r": 35.27131},
+      {"id": 6, "x": 230.0810810810811, "y": 214.86486486486487, "r": 35.40051},
+      {"id": 7, "x": 339.5405405405405, "y": 276.35135135135135, "r": 34.88084},
+      {"id": 8, "x": 459.81081081081084, "y": 135.8108108108108, "r": 34.41306},
+      {"id": 9, "x": 568.5945945945946, "y": 122.2972972972973, "r": 34.25349}
+    ]
+  },
+  {
+    "image": "real/brazilian-coins/55_1477842246.jpg",
+    "source": "brazilian-coins",
+    "scene": "8_or_more_coins",
+    "reference": "labelme-circle",
+    "archive_image": "COCO_labelme_regression/regression/55_1477842246.jpg",
+    "archive_label": "COCO_labelme_regression/regression/55_1477842246.json",
+    "image_sha256": "12984d918f9d097b8e5b8409cea31fee45dce48dd54521d4822b22016d83a7e1",
+    "label_sha256": "b1715fc5af75dbaa0e5924c45e8b1e61c164aa3fe1532bbbdb736a94ffaeeecc",
+    "circles": [
+      {"id": 1, "x": 302.7246376811594, "y": 131.88405797101447, "r": 36.23913},
+      {"id": 2, "x": 383.3333333333333, "y": 195.82608695652172, "r": 36.23913},
+      {"id": 3, "x": 498.3768115942029, "y": 229.71014492753622, "r": 35.94189},
+      {"id": 4, "x": 465.0434782608695, "y": 300.0, "r": 35.66381},
+      {"id": 5, "x": 337.1304347826087, "y": 386.5797101449275, "r": 36.23913},
+      {"id": 6, "x": 208.31884057971018, "y": 175.15942028985506, "r": 36.23913},
+      {"id": 7, "x": 510.695652173913, "y": 105.79710144927536, "r": 35.49514},
+      {"id": 8, "x": 302.7246376811594, "y": 304.3478260869565, "r": 33.18334},
+      {"id": 9, "x": 347.10144927536226, "y": 255.2463768115942, "r": 33.18334}
+    ]
+  },
+  {
+    "image": "real/brazilian-coins/60_1477844052.jpg",
+    "source": "brazilian-coins",
+    "scene": "2_coins",
+    "reference": "labelme-circle",
+    "archive_image": "COCO_labelme_regression/regression/60_1477844052.jpg",
+    "archive_label": "COCO_labelme_regression/regression/60_1477844052.json",
+    "image_sha256": "0f0b71c1465ced2d3b894aab7ac9d87baba325a49b7a7a5d3e0187dc6f0d89fa",
+    "label_sha256": "e4449bd614bd0bc21416741907e0d1b38dbd688f15dfc9b2538ee99dc1c42c40",
+    "circles": [
+      {"id": 1, "x": 98.34042553191489, "y": 362.23404255319144, "r": 37.21884},
+      {"id": 2, "x": 311.1063829787234, "y": 444.6808510638298, "r": 32.62074}
+    ]
+  },
+  {
+    "image": "real/brazilian-coins/60_1477844082.jpg",
+    "source": "brazilian-coins",
+    "scene": "2_coins",
+    "reference": "labelme-circle",
+    "archive_image": "COCO_labelme_regression/regression/60_1477844082.jpg",
+    "archive_label": "COCO_labelme_regression/regression/60_1477844082.json",
+    "image_sha256": "5c6726f047d125506e32b93f296541eabc254972e3f1a76efe0f4818d07836c1",
+    "label_sha256": "e1fb257b24e26fa97984c6dcbd40193bdf9bdbd5db5db6de10a8f2342b0b030e",
+    "circles": [
+      {"id": 1, "x": 459.83743842364527, "y": 130.52709359605913, "r": 31.68832},
+      {"id": 2, "x": 578.064039408867, "y": 294.0738916256157, "r": 35.20703}
+    ]
+  },
+  {
+    "image": "real/brazilian-coins/60_1477844118.jpg",
+    "source": "brazilian-coins",
+    "scene": "3_coins",
+    "reference": "labelme-circle",
+    "archive_image": "COCO_labelme_regression/regression/60_1477844118.jpg",
+    "archive_label": "COCO_labelme_regression/regression/60_1477844118.json",
+    "image_sha256": "854c9cff115424e897e83d0647beb50f1c82348a8bc367a949b0367384984896",
+    "label_sha256": "c7acf6fdab52f7d7a17d9bd915387e21a585c0803654587654917d02bd9be63e",
+    "circles": [
+      {"id": 1, "x": 90.89147286821705, "y": 371.3178294573643, "r": 36.33501},
+      {"id": 2, "x": 487.79069767441854, "y": 251.93798449612402, "r": 35.30325},
+      {"id": 3, "x": 514.1472868217054, "y": 96.12403100775194, "r": 36.19416}
+    ]
+  },
+  {
+    "image": "real/brazilian-coins/65_1477845678.jpg",
+    "source": "brazilian-coins",
+    "scene": "8_or_more_coins",
+    "reference": "labelme-circle",
+    "archive_image": "COCO_labelme_regression/regression/65_1477845678.jpg",
+    "archive_label": "COCO_labelme_regression/regression/65_1477845678.json",
+    "image_sha256": "b33a54cce1ce66a20d2cb36d1d5b225443b8ec8743fd0b2da4353c5c9e93ac62",
+    "label_sha256": "45df101513fd2a1fc68c1e48d6b155736b0719d79682753674101b7b4d73cb9d",
+    "circles": [
+      {"id": 1, "x": 149.02919708029196, "y": 150.82481751824815, "r": 35.64705},
+      {"id": 2, "x": 87.71532846715326, "y": 315.05839416058393, "r": 34.31433},
+      {"id": 3, "x": 219.10218978102188, "y": 320.1678832116788, "r": 36.23998},
+      {"id": 4, "x": 329.3211678832117, "y": 388.7810218978102, "r": 34.43059},
+      {"id": 5, "x": 477.4963503649635, "y": 324.54744525547443, "r": 36.49635},
+      {"id": 6, "x": 437.35036496350364, "y": 401.91970802919707, "r": 31.80003},
+      {"id": 7, "x": 393.5547445255474, "y": 273.4525547445255, "r": 40.37757},
+      {"id": 8, "x": 246.10948905109484, "y": 236.22627737226276, "r": 36.61295}
+    ]
+  },
+  {
+    "image": "real/brazilian-coins/65_1477845858.jpg",
+    "source": "brazilian-coins",
+    "scene": "4_to_7_coins",
+    "reference": "labelme-circle",
+    "archive_image": "COCO_labelme_regression/regression/65_1477845858.jpg",
+    "archive_label": "COCO_labelme_regression/regression/65_1477845858.json",
+    "image_sha256": "c70244ac0555a1b8735091ea1ef5d803eae6f2dc2c72dc944134eb94b38a4988",
+    "label_sha256": "63b7974c47c91b408f715ccaf57c7b513b951ab9f58257ef30fc6876ce6dec25",
+    "circles": [
+      {"id": 1, "x": 314.5192307692308, "y": 157.21153846153845, "r": 31.87975},
+      {"id": 2, "x": 352.5, "y": 314.90384615384613, "r": 32.15768},
+      {"id": 3, "x": 494.80769230769226, "y": 263.9423076923076, "r": 40.2585},
+      {"id": 4, "x": 573.6538461538462, "y": 279.8076923076923, "r": 33.81144},
+      {"id": 5, "x": 318.8461538461538, "y": 255.76923076923077, "r": 35.303},
+      {"id": 6, "x": 245.76923076923077, "y": 266.8269230769231, "r": 35.69691},
+      {"id": 7, "x": 177.49999999999997, "y": 244.71153846153845, "r": 35.01703}
+    ]
+  },
+  {
+    "image": "real/brazilian-coins/70_1477849362.jpg",
+    "source": "brazilian-coins",
+    "scene": "4_to_7_coins",
+    "reference": "labelme-circle",
+    "archive_image": "COCO_labelme_regression/regression/70_1477849362.jpg",
+    "archive_label": "COCO_labelme_regression/regression/70_1477849362.json",
+    "image_sha256": "1be53e7138e4d9588468ee1e30348d747d9260fac82639ea1e0baece2490a496",
+    "label_sha256": "73c4c97fed384681b472764b3a6286b6aa6dd1dc286b578063d34c5718168549",
+    "circles": [
+      {"id": 1, "x": 362.0719424460431, "y": 133.81294964028777, "r": 37.69262},
+      {"id": 2, "x": 482.21582733812943, "y": 193.5251798561151, "r": 35.53695},
+      {"id": 3, "x": 280.0575539568345, "y": 294.2446043165467, "r": 36.71885},
+      {"id": 4, "x": 426.1007194244604, "y": 243.88489208633092, "r": 36.20785},
+      {"id": 5, "x": 380.77697841726615, "y": 351.7985611510791, "r": 35.28115}
+    ]
+  },
+  {
+    "image": "real/brazilian-coins/75_1477849962.jpg",
+    "source": "brazilian-coins",
+    "scene": "8_or_more_coins",
+    "reference": "labelme-circle",
+    "archive_image": "COCO_labelme_regression/regression/75_1477849962.jpg",
+    "archive_label": "COCO_labelme_regression/regression/75_1477849962.json",
+    "image_sha256": "7a5c172c3721ed19b35e35395496e83a132b9ad2b826fe117b93ef485973c117",
+    "label_sha256": "ff50962163520d83c3575bb71bfebb2aa3be95de69d7639bceb3a261ad3135ee",
+    "circles": [
+      {"id": 1, "x": 82.02247191011236, "y": 181.2734082397004, "r": 35.34319},
+      {"id": 2, "x": 393.9791332263243, "y": 325.55751738897806, "r": 35.34319},
+      {"id": 3, "x": 483.9073843474005, "y": 368.84899720960584, "r": 35.34319},
+      {"id": 4, "x": 485.0463978003153, "y": 208.10460259077178, "r": 35.34319},
+      {"id": 5, "x": 540.8939314326024, "y": 163.05527523651168, "r": 35.34319},
+      {"id": 6, "x": 329.74910394265225, "y": 161.29032258064515, "r": 33.10323},
+      {"id": 7, "x": 308.3942652329749, "y": 247.46236559139786, "r": 33.10323},
+      {"id": 8, "x": 271.26881720430106, "y": 324.673835125448, "r": 33.10323},
+      {"id": 9, "x": 195.194743130227, "y": 283.78494623655916, "r": 33.10323},
+      {"id": 10, "x": 514.7996814018319, "y": 270.0565511748308, "r": 33.10323}
+    ]
+  },
+  {
+    "image": "real/brazilian-coins/80_1477851930.jpg",
+    "source": "brazilian-coins",
+    "scene": "3_coins",
+    "reference": "labelme-circle",
+    "archive_image": "COCO_labelme_regression/regression/80_1477851930.jpg",
+    "archive_label": "COCO_labelme_regression/regression/80_1477851930.json",
+    "image_sha256": "2cd6f5785a7893af2fe3b1202a10441141e2cfe372ac3108cb96137da383d7f0",
+    "label_sha256": "2de98ba86ce95f21d7eafcac5e72acd6aa74835df5e9dad7584cfd3c324d2220",
+    "circles": [
+      {"id": 1, "x": 396.1438848920863, "y": 97.84172661870502, "r": 38.19053},
+      {"id": 2, "x": 454.4172661870503, "y": 251.79856115107913, "r": 39.25975},
+      {"id": 3, "x": 545.7841726618705, "y": 251.07913669064746, "r": 35.43485}
+    ]
+  },
+  {
+    "image": "real/brazilian-coins/80_1477851954.jpg",
+    "source": "brazilian-coins",
+    "scene": "3_coins",
+    "reference": "labelme-circle",
+    "archive_image": "COCO_labelme_regression/regression/80_1477851954.jpg",
+    "archive_label": "COCO_labelme_regression/regression/80_1477851954.json",
+    "image_sha256": "b92179cadd4fd902434927491db3a229bd132ea0ee4749a1398ded7fd09e5186",
+    "label_sha256": "4884fc76d2ba7b131bad86dd616f94debf8025d1544be0d6ba1cf495efdedd0c",
+    "circles": [
+      {"id": 1, "x": 328.0373831775701, "y": 380.6853582554517, "r": 36.22291},
+      {"id": 2, "x": 248.05065691453336, "y": 109.55803873764053, "r": 40.26795},
+      {"id": 3, "x": 130.3478260869565, "y": 319.28985507246375, "r": 35.52942}
+    ]
+  },
+  {
+    "image": "real/brazilian-coins/85_1477854258.jpg",
+    "source": "brazilian-coins",
+    "scene": "4_to_7_coins",
+    "reference": "labelme-circle",
+    "archive_image": "COCO_labelme_regression/regression/85_1477854258.jpg",
+    "archive_label": "COCO_labelme_regression/regression/85_1477854258.json",
+    "image_sha256": "69ad16f31d224253ec3c1b62052c37c23e978cd9df305604db1c7a93bad0ec08",
+    "label_sha256": "3e06f5adbbfe73c73044953505c05de99fe77456a1c6ebcd9d3d9120b12226cb",
+    "circles": [
+      {"id": 1, "x": 145.3795620437956, "y": 309.94890510948903, "r": 35.0441},
+      {"id": 2, "x": 327.13138686131384, "y": 347.9051094890511, "r": 35.7962},
+      {"id": 3, "x": 459.978102189781, "y": 158.85401459854015, "r": 34.79999},
+      {"id": 4, "x": 203.7737226277372, "y": 84.40145985401459, "r": 34.31433},
+      {"id": 5, "x": 348.29927007299267, "y": 250.82481751824815, "r": 31.1825},
+      {"id": 6, "x": 420.5620437956204, "y": 246.44525547445252, "r": 31.69094}
+    ]
+  },
+  {
+    "image": "real/brazilian-coins/90_1477854732.jpg",
+    "source": "brazilian-coins",
+    "scene": "4_to_7_coins",
+    "reference": "labelme-circle",
+    "archive_image": "COCO_labelme_regression/regression/90_1477854732.jpg",
+    "archive_label": "COCO_labelme_regression/regression/90_1477854732.json",
+    "image_sha256": "6277378bbda62827cd73315175d4b4b459695243ad6ad052fb8e9181730482de",
+    "label_sha256": "678973bf2e0a3318c7218965e62d6fc350fe3b6205ab30a75f30d946a1d3da34",
+    "circles": [
+      {"id": 1, "x": 297.27659574468083, "y": 376.063829787234, "r": 32.13576},
+      {"id": 2, "x": 336.6382978723404, "y": 209.04255319148936, "r": 37.85575},
+      {"id": 3, "x": 433.44680851063833, "y": 227.12765957446808, "r": 35.55882},
+      {"id": 4, "x": 502.063829787234, "y": 321.8085106382979, "r": 34.96911},
+      {"id": 5, "x": 323.87234042553195, "y": 135.63829787234042, "r": 36.42355},
+      {"id": 6, "x": 227.59574468085106, "y": 196.80851063829783, "r": 35.25918},
+      {"id": 7, "x": 380.25531914893605, "y": 289.89361702127655, "r": 32.54693}
+    ]
+  },
+  {
+    "image": "real/brazilian-coins/90_1477855824.jpg",
+    "source": "brazilian-coins",
+    "scene": "8_or_more_coins",
+    "reference": "labelme-circle",
+    "archive_image": "COCO_labelme_regression/regression/90_1477855824.jpg",
+    "archive_label": "COCO_labelme_regression/regression/90_1477855824.json",
+    "image_sha256": "852d07b65576e0867772b922ec8306de0370061c7d99e95556072039d49dea33",
+    "label_sha256": "42e321bb8a0991230c4b71bc117491d3e535deaeb0fa725e2f367b857782a826",
+    "circles": [
+      {"id": 1, "x": 554.5238095238095, "y": 82.85714285714285, "r": 33.24478},
+      {"id": 2, "x": 455.0, "y": 216.19047619047618, "r": 34.87912},
+      {"id": 3, "x": 127.38095238095238, "y": 240.47619047619045, "r": 34.38148},
+      {"id": 4, "x": 44.52380952380952, "y": 88.57142857142857, "r": 30.68751},
+      {"id": 5, "x": 434.5238095238095, "y": 68.57142857142857, "r": 38.06249},
+      {"id": 6, "x": 245.95238095238096, "y": 385.23809523809524, "r": 39.73267},
+      {"id": 7, "x": 366.4285714285714, "y": 354.2857142857143, "r": 30.64314},
+      {"id": 8, "x": 547.8571428571428, "y": 314.2857142857143, "r": 29.83325}
+    ]
+  }
+]

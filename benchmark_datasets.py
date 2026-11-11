@@ -61,6 +61,21 @@ def real_benchmark_inputs():
     yield "skimage-coins", "official_sample", DATA / "coins.png", {}
 
 
+def generalization_inputs():
+    manifest = json.loads((DATA / "generalization.json").read_text(encoding="utf-8"))
+    missing = [item["image"] for item in manifest if not (DATA / item["image"]).is_file()]
+    if missing:
+        raise FileNotFoundError(f"Missing generalization images: {', '.join(missing)}. See data/README.md.")
+    for item in manifest:
+        path = DATA / item["image"]
+        annotation = {"reference": item["reference"], "capture_group": item.get("capture_group")}
+        if "circles" in item:
+            annotation["circles"] = item["circles"]
+        if "rectangle_count" in item:
+            annotation["rectangle_count"] = item["rectangle_count"]
+        yield item["source"], item["scene"], path, annotation
+
+
 def benchmark_inputs(*, synthetic_only: bool = False):
     if not synthetic_only:
         yield from real_benchmark_inputs()
@@ -104,6 +119,8 @@ def measure_image(source, scene, path, annotation, config):
         "input_width": image.shape[1], "input_height": image.shape[0], "scale": scale,
         "read_resize_ms": round(read_resize_ms, 3), "detect_ms": round(median(timings), 3),
         "rectangle_count": annotation.get("rectangle_count"), "count": len(detections),
+        "reference": annotation.get("reference"),
+        "capture_group": annotation.get("capture_group"),
         "circles": detections, "evaluation": evaluation,
     }
     if evaluation is not None:
@@ -118,6 +135,8 @@ def summarize(rows):
     matches = [match for item in measured for match in item["matches"]]
     return {
         "images": len(rows), "detected_circles": sum(row["count"] for row in rows),
+        "evaluated_images": len(measured),
+        "reference_types": sorted({row["reference"] for row in rows if row["reference"] is not None}),
         "median_detect_ms": round(median(row["detect_ms"] for row in rows), 3),
         "truth_circles": sum(item["truth_count"] for item in measured) if measured else None,
         "matched": len(matches) if measured else None,
@@ -136,6 +155,13 @@ def write_results(output, rows, config):
                      "opencv_version": cv2.__version__, "timing_unit": "ms"},
         "config": config,
         "sources": {source: summarize([row for row in rows if row["source"] == source]) for source in sources},
+        "scenes": {
+            source: {
+                scene: summarize([row for row in rows if row["source"] == source and row["scene"] == scene])
+                for scene in dict.fromkeys(row["scene"] for row in rows if row["source"] == source)
+            }
+            for source in sources
+        },
         "images": rows,
     }
     (output / "results.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
@@ -155,17 +181,19 @@ def write_results(output, rows, config):
 
 def main():
     parser = argparse.ArgumentParser(description="Run the existing OpenCV baseline on the coin test datasets")
-    parser.add_argument("--synthetic-only", action="store_true", help="Run only the two synthetic demo images")
+    group = parser.add_mutually_exclusive_group()
+    group.add_argument("--synthetic-only", action="store_true", help="Run only the two synthetic demo images")
+    group.add_argument("--generalization-only", action="store_true", help="Run the fixed generalization subset")
     parser.add_argument("--output", type=Path, default=ROOT / "outputs/dataset-benchmark")
     args = parser.parse_args()
     config = load_config(ROOT / "config.toml")
     cv2.setNumThreads(1)
     detect_circles(np.zeros((MAX_SIDE, 480, 3), dtype=np.uint8), config)
 
-    rows = [
-        measure_image(source, scene, path, annotation, config)
-        for source, scene, path, annotation in benchmark_inputs(synthetic_only=args.synthetic_only)
-    ]
+    inputs = (generalization_inputs() if args.generalization_only
+              else benchmark_inputs(synthetic_only=args.synthetic_only))
+    rows = [measure_image(source, scene, path, annotation, config)
+            for source, scene, path, annotation in inputs]
     write_results(args.output, rows, config)
 
 
