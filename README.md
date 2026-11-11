@@ -2,25 +2,28 @@
 
 输入一张图片或一个目录，输出钱币的圆心、半径以及六个阶段的可视化。程序按输入图片的像素尺寸处理，编号按圆心纵坐标排序，纵坐标相同时从左到右排序。坐标原点在左上角，`x` 向右，`y` 向下，`x`、`y` 和 `r` 的单位均为像素。JSON 中的坐标和半径保留到小数点后两位，绘图时将其取整。
 
+当前版本是课程作业的 OpenCV 参考实现。自实现 Canny、霍夫圆变换以及最终实验报告待完成。长期开发与交付要求见 [AGENTS.md](AGENTS.md)。
+
 ## 安装和运行
 
 在 Windows PowerShell 中进入项目目录。当前交付使用已验证的 Python 3.13 和 uv，依赖安装在项目的 `.venv`。
 
 ```powershell
-Set-Location 'D:\Projects\Coin Localization'
 uv sync --locked --python 3.13
 
-# 生成并检测三个示例
-uv run --locked python coin_detection.py
+# 重新生成 data/ 下的三个示例及合成真值，并检测到独立目录
+uv run --locked python coin_detection.py --output '.\outputs\demo-run'
 
 # 单张图片
 uv run --locked python coin_detection.py '.\data\coins.png' --output '.\outputs\single'
 
-# 批量检测目录中的 JPG、JPEG 和 PNG（不递归）
+# 批量检测目录中的 JPG、JPEG、PNG 和 WebP（不递归）
 uv run --locked python coin_detection.py 'D:\我的图片' --output '.\outputs\batch'
 ```
 
 读写图片采用字节缓冲区，支持中文路径。独立阶段图保存为原尺寸 PNG。原图阶段展示解码后的 8 位彩色图，读取 JPEG 时按文件的像素排列保留坐标，不应用 EXIF 旋转。未找到圆时，该图片的 `count` 为 0，`circles` 为空，程序仍保存六阶段结果并提示。目录中有损坏的图片时，程序会继续处理其余图片，将失败项记入 `errors`，最后返回非零退出码。
+
+省略输入时会重写 `data/` 下的示例及合成真值。直接传入图片或目录可复用已有输入。为新实验指定独立的 `--output` 目录，避免覆盖仓库中的参考结果。
 
 ## 目录与输出
 
@@ -28,6 +31,7 @@ uv run --locked python coin_detection.py 'D:\我的图片' --output '.\outputs\b
 .
 ├── coin_detection.py           # 命令行、图像处理、可视化及 JSON 输出
 ├── demo_data.py                # 生成示例、保存真值及计算误差
+├── benchmark_datasets.py       # OpenCV 参考路径的逐图评估和汇总
 ├── config.toml                 # 三个示例共用的默认参数
 ├── pyproject.toml
 ├── uv.lock
@@ -92,6 +96,16 @@ uv run --locked python coin_detection.py --config .\experiment.toml --output .\o
 - 真实钱币图来自 [scikit-image `data.coins()`](https://scikit-image.org/docs/stable/api/skimage.data.html#skimage.data.coins)。目视将圆与可见钱币逐枚对应。第 15 号 `(279.0, 195.0, 16.56)` 在第三排偏右，圆周主要落在币面内部。第 23 号 `(108.6, 265.8, 16.92)` 在最下排靠左，圆偏小且偏左。真实图没有像素级圆参数真值。
 - 合成评估要求圆心欧氏距离和半径绝对误差均不超过 5 px，并做一对一匹配。每个真值对应的检测编号和误差可在 [detections.json](outputs/detections.json) 中查看。含噪示例使用固定随机种子 2026，叠加标准差为 20 灰度级的零均值高斯噪声后裁剪到 8 位范围。两组误差只代表本次样本。
 
+## 数据集基准
+
+运行以下命令可评估两张程序绘制的合成示例，保存逐图计数、耗时和圆参数误差。全量基准还需要准备 Git 忽略的 `data/real/` 数据，具体来源、授权、标注和命令见 [测试数据清单](data/README.md)。
+
+```powershell
+uv run --locked python benchmark_datasets.py --synthetic-only --output .\outputs\synthetic-benchmark
+```
+
 ## 局限与下一步
 
-当前默认半径范围针对这三张示例的像素尺度。钱币较大或较小时需调整半径范围和最小圆心间距。倾斜拍摄会使钱币投影偏椭圆，遮挡、强反光和复杂纹理也可能使外缘投票不足，或使内部纹理得到更强的投票。下一步可先用不同分辨率、光照和遮挡程度的实拍图验证，再用候选圆周附近的边缘支持度筛选假圆，或沿外缘重新拟合中心和半径。
+当前默认半径范围针对这三张示例的像素尺度。钱币较大或较小时需调整半径范围和最小圆心间距。倾斜拍摄会使钱币投影偏椭圆，遮挡、强反光和复杂纹理也可能使外缘投票不足，或使内部纹理得到更强的投票。
+
+后续先验证自实现 Canny 的各阶段，再将其边缘与梯度接入自实现霍夫圆。使用固定输入对照 OpenCV，分析阈值、半径范围和圆心间距对误检、漏检及定位误差的影响。收到报告模板后再完成 LaTeX 排版与交付。
